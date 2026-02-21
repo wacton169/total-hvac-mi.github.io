@@ -2,40 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="HVAC services offered by Total HVAC of Michigan - repairs, installations, and tune-ups for better indoor air quality.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services - Total HVAC of Michigan</title>
     <link rel="stylesheet" href="assets/style.css">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
 </head>
 <body>
 
 <header>
     <h1>Our HVAC Services</h1>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="baas.html">BaaS</a>
-        <a href="services.html">Services</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" aria-label="Navigate to Home">Home</a>
+        <a href="baas.html" aria-label="Navigate to BaaS">BaaS</a>
+        <a href="services.html" class="active" aria-label="Navigate to Services">Services</a>
+        <a href="about.html" aria-label="Navigate to About">About</a>
+        <a href="contact.html" aria-label="Navigate to Contact">Contact</a>
     </nav>
 </header>
 
 <section>
-    <h2>Repairs & Emergency Service</h2>
+    <h2>Repairs &amp; Emergency Service</h2>
     <p>Fast diagnostics and repair for furnaces, ACs, rooftop units, and heat pumps.</p>
 
     <h2>Installations</h2>
     <p>New and replacement units sized professionally for your property.</p>
 
-    <h2>Inspections & Tune‑Ups</h2>
+    <h2>Inspections &amp; Tune‑Ups</h2>
     <p>Seasonal maintenance that prevents breakdowns and extends system life.</p>
 
     <h2>Indoor Air Quality</h2>
     <p>Filters, humidifiers, UV lights, and ventilation improvement.</p>
 </section>
 
+<section class="cta">
+    <p>Contact us today to schedule a service!</p>
+    <a href="contact.html" class="btn">Book Now</a>
+</section>
+
 <footer>
-    <p>© 2026 Total HVAC of Michigan</p>
+    <p>&copy; 2026 Total HVAC of Michigan | All Rights Reserved</p>
+    <nav>
+        <a href="privacy.html" aria-label="Navigate to Privacy Policy">Privacy Policy</a> |
+        <a href="terms.html" aria-label="Navigate to Terms of Use">Terms of Use</a>
+    </nav>
 </footer>
 
 </body>
 </html>
-``
